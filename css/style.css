@@ -107,6 +107,10 @@ p {
     color: hsl(245, 75%, 52%);
 }
 
+.option:hover {
+    color: hsl(224, 23%, 55%);
+}
+
 .button {
     margin-top: 20px;
     font-size: 16px;
@@ -119,6 +123,15 @@ p {
     border-width: 0px;
     justify-content: center;
     align-items: center;
+}
+
+button:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+.reject:hover {
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
 }
 
 @media screen and (max-width: 675px){
